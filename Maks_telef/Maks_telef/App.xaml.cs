@@ -8,7 +8,7 @@ namespace Maks_telef
     {
         public App()
         {
-            InitializeComponent();
+           
 
             MainPage = new NavigationPage(new StartPage1());
         }
