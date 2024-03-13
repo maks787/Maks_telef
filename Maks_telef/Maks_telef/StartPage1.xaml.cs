@@ -11,8 +11,8 @@ namespace Maks_telef
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class StartPage1 : ContentPage
-    {       List<ContentPage> pages = new List<ContentPage>() { new EntryPage(),new TimePage(),new BoxView_Page(),new DateTimePage(), new StepperSlider_Page(), new RGBslider(), new lumimemm(),new FramePage(), new xo(), new PickerPage(), new smsPage(), new CarouselPage() };
-            List<string> texts = new List<string>() { "Ava entry leht","Ava timer leht", "Ava Box leht", "Ava Date leht", "Ava Slider leht", "Ava rgb slider leht", "Ava lumemmem leht", "Ava Frame leht", "Ava Trips traps trull leht","ava veeb leht","sms leht","Ava carousel" };
+    {       List<ContentPage> pages = new List<ContentPage>() { new EntryPage(),new TimePage(),new BoxView_Page(),new DateTimePage(), new StepperSlider_Page(), new RGBslider(), new lumimemm(),new FramePage(), new xo(), new PickerPage(), new smsPage() };
+            List<string> texts = new List<string>() { "Ava entry leht","Ava timer leht", "Ava Box leht", "Ava Date leht", "Ava Slider leht", "Ava rgb slider leht", "Ava lumemmem leht", "Ava Frame leht", "Ava Trips traps trull leht","ava veeb leht","sms leht" };
             StackLayout st;
         public StartPage1()
         {
